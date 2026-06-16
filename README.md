@@ -47,6 +47,11 @@ Verificación local realizada:
 - Playwright móvil 320, 375, 390 y 430 px: OK.
 - Casos del apéndice CKD-EPI 2021: OK.
 
+## Assets
+
+Los iconos externos e internos de ERC se generan a partir de `../image.png`.
+Los iconos PWA/favicon están en `public/icons/erc/` y la imagen interna optimizada está en `src/assets/erc/`.
+
 ## Bibliografía local revisada
 
 - `../ERC/Kdigo.pdf`

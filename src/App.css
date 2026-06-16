@@ -97,6 +97,13 @@ button {
   backdrop-filter: blur(12px);
 }
 
+.header-icon img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
 .app-header h1 {
   margin: 0;
   color: #ffffff;
@@ -821,6 +828,13 @@ button {
 .button.icon-only {
   width: 56px;
   flex: 0 0 56px;
+}
+
+.button-app-icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 @media (min-width: 760px) {

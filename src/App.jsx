@@ -16,6 +16,7 @@ import {
   XCircle,
 } from 'lucide-react'
 import './App.css'
+import ercInternalIcon from './assets/erc/erc-internal.webp'
 
 const tabs = [
   { id: 'parametros', icon: ClipboardList, label: 'Perfil' },
@@ -115,42 +116,6 @@ function CheckboxPill({ checked, onChange, label, color = 'blue' }) {
       <span className="check-dot">{checked ? <CheckCircle2 size={15} /> : null}</span>
       <span>{label}</span>
     </button>
-  )
-}
-
-function KidneyIcon({ size = 28 }) {
-  return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 64 64"
-      fill="none"
-      aria-hidden="true"
-      focusable="false"
-    >
-      <path
-        d="M24.2 8.7c-7.4 1.2-13.4 8.1-14 16.4-.6 8.9 4.4 17.2 11 23.2 3.3 3 6.6 1 6.6-3.4V33.2c0-4.4 2.2-7.8 5.1-10.6 2-1.9 2.2-5.2.4-7.4-2.1-2.6-5.3-7.1-9.1-6.5Z"
-        fill="currentColor"
-        opacity="0.96"
-      />
-      <path
-        d="M39.8 8.7c7.4 1.2 13.4 8.1 14 16.4.6 8.9-4.4 17.2-11 23.2-3.3 3-6.6 1-6.6-3.4V33.2c0-4.4-2.2-7.8-5.1-10.6-2-1.9-2.2-5.2-.4-7.4 2.1-2.6 5.3-7.1 9.1-6.5Z"
-        fill="currentColor"
-        opacity="0.78"
-      />
-      <path
-        d="M30.3 24.2c-3.6 3.1-5.4 6.9-5.4 11.5m8.8-11.5c3.6 3.1 5.4 6.9 5.4 11.5"
-        stroke="#EAF1F8"
-        strokeWidth="3.2"
-        strokeLinecap="round"
-      />
-      <path
-        d="M32 22.7v-7.4"
-        stroke="#EAF1F8"
-        strokeWidth="3.2"
-        strokeLinecap="round"
-      />
-    </svg>
   )
 }
 
@@ -328,7 +293,7 @@ function App() {
           <div className="header-glow" />
           <div className="header-content">
             <div className="header-icon">
-              <KidneyIcon size={34} />
+              <img src={ercInternalIcon} alt="" aria-hidden="true" />
             </div>
             <div>
               <h1>CDSS ERC</h1>
@@ -508,7 +473,7 @@ function App() {
           ) : null}
           {activeTab === 'tratamiento' ? (
             <button type="button" onClick={resetPatient} className="button primary">
-              Nuevo paciente <KidneyIcon size={22} />
+              Nuevo paciente <img className="button-app-icon" src={ercInternalIcon} alt="" aria-hidden="true" />
             </button>
           ) : null}
         </div>
