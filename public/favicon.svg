@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CDSS ERC">
+  <rect width="64" height="64" rx="16" fill="#2F5D8C"/>
+  <path d="M21 14v13a11 11 0 0 0 22 0V14" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M26 14h-5m22 0h-5" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M32 38v6a8 8 0 0 0 16 0v-5" fill="none" stroke="#EAF1F8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="48" cy="34" r="5" fill="#EAF1F8"/>
+</svg>
