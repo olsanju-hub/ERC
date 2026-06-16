@@ -1,4 +1,4 @@
-# CDSS ERC
+# ERC
 
 CDSS mobile first para apoyo a la decisión clínica en enfermedad renal crónica en Atención Primaria.
 
